@@ -1,5 +1,14 @@
+import { Coffee as Latte } from "./Chai.jsx";
+
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <>
+      <Latte />
+      <Latte />
+      <Latte />
+      <Latte />
+    </>
+  );
 }
 
 export default App;
